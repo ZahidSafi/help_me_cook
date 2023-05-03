@@ -8,6 +8,7 @@ class CustomGridView extends StatelessWidget {
   Widget build(BuildContext context) {
     return GridView.builder(
             itemCount: 50,
+            padding: const EdgeInsets.all(20),
             gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
               crossAxisCount: 2,
               mainAxisSpacing: 10,

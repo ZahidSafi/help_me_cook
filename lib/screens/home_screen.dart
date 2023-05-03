@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:help_me_cook/widgets/custom_grid_view.dart';
+import 'package:help_me_cook/widgets/search_grid.dart';
 
 class HomeScreen extends StatelessWidget {
   const HomeScreen({super.key});
@@ -7,13 +7,11 @@ class HomeScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-        appBar: AppBar(
-          backgroundColor: Colors.purple,
-          title: const Text('Help Me Cook'),
-        ),
-        body: Container(
-          padding: const EdgeInsets.all(10),
-          child: const CustomGridView(),
-        ));
+      appBar: AppBar(
+        backgroundColor: Colors.deepOrange,
+        title: const Text('Help Me Cook'),
+      ),
+      body: const SearchGrid(),
+    );
   }
 }

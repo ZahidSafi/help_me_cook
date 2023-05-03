@@ -10,7 +10,7 @@ class GridItem extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       decoration: BoxDecoration(
-          color: Colors.blue,
+          color: Colors.deepOrange,
           borderRadius: BorderRadius.circular(20),
           boxShadow: const [
             BoxShadow(
